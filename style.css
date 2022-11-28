@@ -1,0 +1,98 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.body-content {
+    height: 100vh;
+
+}
+
+.navigation-bar {
+    background-color: #023e8a;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+}
+
+.ul-bar {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-bar {
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+}
+
+.li-bar:hover {
+    background-color: #5066e4;
+    transition: 0.8 ease-in-out;
+    transition-delay:0.1s ;
+    border-radius: 9px;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+}
+
+.img-content {
+    background-color: #171D3F;
+    display: flex;
+    justify-content: center;
+}
+
+.img-bar {
+    display: flex;
+    height: 250px;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #023e8a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-footer {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-about-me {
+    background-color: #171D3F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shadow {
+    width: fit-content;
+    padding: 1% 2%;
+    border-radius: 15px;
+    background-color: #023e8a;
+    margin-left: 0%;
+    margin-top: 0%;
+    margin-bottom: 1%;
+}
+
+.shadow:hover {
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    transition: box-shadow 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.shadow h4 {
+    color: #171D3F;
+}
